@@ -22,5 +22,6 @@ export class StudentFormComponent implements OnInit {
         let obj = studentform.value
         this._studentform.createtodo(obj)
       }
+      studentform.reset()
   }
 }

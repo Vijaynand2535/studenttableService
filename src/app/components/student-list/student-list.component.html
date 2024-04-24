@@ -1,0 +1,23 @@
+
+
+<table class="table table-bordered mt-4">
+    <thead>
+        <tr>
+            <th>Sr.No</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Contact</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let stdI of studentArr ; index as i">
+            <td>{{i + 1}}</td>
+            <td>{{stdI.fname}}</td>
+            <td>{{stdI.lname}}</td>
+            <td>{{stdI.email}}</td>
+            <td>{{stdI.contact}}</td>
+        </tr>
+    </tbody>
+</table>
+
